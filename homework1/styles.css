@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.top3books {
+    overflow: hidden;
+}
+.read {
+    border: 5px solid gray;
+    width:350px;
+    height: 450px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    background-color: azure;
+    
+}
+
+#book1 {
+    display: inline-block;
+    position: relative;
+    margin-left: 80px;
+
+}
+
+#book2 {
+    display: inline-block;
+    position: relative;
+}
+
+#book3 {
+    display: inline-block;
+    position: relative;
+}
+
+.top2books {
+    overflow: hidden;
+}
+
+#book4 {
+    margin-left: 300px;
+}
