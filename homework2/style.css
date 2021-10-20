@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    width: 100vw; 
+    height: 100vh;
+    opacity: 0.5;
+    z-index: 10;
+  
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 12;
+}
+.btn-close {
+    margin-left: 450px;
+}
+
+h1 {
+    z-index: 2;
+    color: blue;
+    opacity: 0.5;
+    float: right;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    border-width: 0;
+    background-color: #499df3;
+    height: 30px;
+    color: white;
+}
