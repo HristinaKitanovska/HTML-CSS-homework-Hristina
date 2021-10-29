@@ -56,7 +56,7 @@ h3 {
     background:#ddd;
 }
 .sections-wrapper {
-    max-width:400px;
+    /* max-width:400px; */
     margin:auto;
     display:flex;
     flex-direction: column;
@@ -64,6 +64,7 @@ h3 {
     padding: 0;
 
 }
+
 .heading-label,.value{
     margin-bottom:6px;
 }
@@ -73,4 +74,22 @@ h3 {
 }
 .profile-pic {
     max-width:200px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+    .separator {
+        display: none;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .heading-label {
+        font-weight: bold;
+    }
 }
