@@ -1,0 +1,180 @@
+ul {
+    list-style-type: none;
+}
+
+.kursevi > div {
+    padding: 10px;
+    border: 1px solid grey;
+    min-width: 30%;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    margin: 5px;
+    transition: transform .2s;
+}
+ .kursevi > div:hover { 
+     transform: scale(1.03);
+}
+
+@keyframes example  {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.prv {
+    opacity: 0;
+    animation-name: example;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.vtor {
+    opacity: 0;
+    animation-name: example;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
+}
+.tret {
+    opacity: 0;
+    animation-name: example;
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+}
+.cetvrt {
+    opacity: 0;
+    animation-name: example;
+    animation-delay: 400ms;
+    animation-fill-mode: forwards;
+}
+.pet {
+    opacity: 0;
+    animation-name: example;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+.sest {
+    opacity: 0;
+    animation-name: example;
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+}
+
+.kursevi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.kursevi > div > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.site-zaedno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#navigacija {
+    width: 20%;
+}
+
+.kocka {
+    width: 50px;
+    background-color:cornflowerblue;
+}
+.kursevi {
+    width: 80%;
+}
+.matematika {
+    height: 280px;
+}
+.fizika {
+    height: 300px;
+}
+.programiranje {
+    height: 200px;
+}
+.dizajn {
+    height: 250px;
+}
+.elektronika {
+    height: 100px;
+}
+.energetika {
+    height: 150px;
+}
+
+.kocka {
+    width: 50px;
+    background-color: cornflowerblue;
+}
+
+.dijagram {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+        
+.kategorija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.naslov {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    min-height: 150px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    color: darkslategray;
+    font-size: smaller;
+    padding: 20px 0 20px 0;
+}
+
+.footer-lista {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-left: 1px solid darkslategray;
+}
+
+
+@media only screen and (max-width:768px) {
+    #navigacija {
+        display: none;
+    }
+
+    .kursevi {
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width:640px) {
+    .kursevi > div {
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .kursevi > div {
+        min-width: 100%;
+    }
+}
+
